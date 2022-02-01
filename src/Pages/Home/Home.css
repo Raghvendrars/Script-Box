@@ -13,8 +13,9 @@
   font-style: normal;
   font-weight: 900;
   font-size: 4.7rem;
-  line-height:6rem;
+  line-height: 6rem;
   color: #0b1b35;
+  text-align: left;
 }
 
 .Hero-Section-Text-Small {
@@ -24,6 +25,7 @@
   font-size: 1.3rem;
   line-height: auto;
   color: #000000;
+  text-align: left;
 }
 
 .Hero-Section-GetStarted-Button {
@@ -33,6 +35,10 @@
   height: 5vh;
   background-color: #ff6600;
   color: #ffffff;
+}
+.Hero-Section-Column-One-Box-Item {
+  text-align: left;
+  box-shadow: none;
 }
 
 @media only screen and (max-width: 600px) {

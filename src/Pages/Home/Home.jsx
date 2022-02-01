@@ -37,32 +37,28 @@ const Home = () => {
               style={{ minHeight: "100vh" }}
               className="Hero-Section-Column-One-Box-Container"
             >
-              <Stack spacing={2} padding={0} margin={0}>
+              <Stack spacing={2} className="Hero-Section-Column-One-Box-Item">
                 <Item
-                  sx={{ textAlign: "left", height: "23rem", boxShadow: "none" }}
-                  padding={0}
-                  margin={0}
+                  className="Hero-Section-Column-One-Box-Item"
+                  sx={{ boxShadow: "none" }}
                 >
                   <p className="Hero-Section-Text">
                     We boost growth for your statup business
                   </p>
                 </Item>
                 <Item
-                  sx={{
-                    textAlign: "left",
-                    height: "10vh",
-                    paddingTop: 0,
-                    boxShadow: "none",
-                  }}
-                  padding={0}
-                  margin={0}
+                  className="Hero-Section-Column-One-Box-Item"
+                  sx={{ boxShadow: "none" }}
                 >
                   <p className="Hero-Section-Text-Small">
                     Our goal is top at the heart of creativity services industry
                     as a digital creator. In has a after comment
                   </p>
                 </Item>
-                <Item sx={{ textAlign: "left", padding: 0, boxShadow: "none" }}>
+                <Item
+                  className="Hero-Section-Column-One-Box-Item"
+                  sx={{ textAlign: "left", boxShadow: "none" }}
+                >
                   <Button
                     className="Hero-Section-GetStarted-Button"
                     sx={{ bgcolor: "#ff6600", color: "#ffffff" }}
@@ -82,9 +78,9 @@ const Home = () => {
             alignItems="center"
             justifyContent="center"
             style={{ minHeight: "100vh" }}
-            sx={{boxShadow: "none"}}
+            sx={{ boxShadow: "none" }}
           >
-            <Card sx={{ width: "100%",boxShadow: "none" }}>
+            <Card sx={{ width: "100%", boxShadow: "none" }}>
               <img src={HeroImg} alt="HeroSecImg" />
             </Card>
           </Grid>
