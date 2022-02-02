@@ -40,7 +40,7 @@ const Home = () => {
               <Stack spacing={2} className="Hero-Section-Column-One-Box-Item">
                 <Item
                   className="Hero-Section-Column-One-Box-Item"
-                  sx={{ boxShadow: "none" }}
+                  sx={{ boxShadow: "none",height:"50vh" }}
                 >
                   <p className="Hero-Section-Text">
                     We boost growth for your statup business

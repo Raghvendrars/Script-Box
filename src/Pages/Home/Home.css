@@ -2,7 +2,7 @@
 .Hero-Section-Column-One-Box {
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 75%;
   height: auto;
   text-align: left;
   justify-content: center;
@@ -12,7 +12,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 4.7rem;
+  font-size: 4rem;
   line-height: 6rem;
   color: #0b1b35;
   text-align: left;
