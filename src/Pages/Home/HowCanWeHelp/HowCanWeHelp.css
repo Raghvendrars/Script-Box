@@ -1,0 +1,9 @@
+.HowCanWeHelp-Bg-Wrap-Div {
+  width: 70vw;
+  height: 60vh;
+  z-index: -1;
+  float: right;
+  margin-right: 0px;
+  background: #f4f9ff;
+  border-radius: 0px;
+}
