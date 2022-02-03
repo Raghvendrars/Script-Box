@@ -2,18 +2,22 @@
 .Hero-Section-Column-One-Box {
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 100%;
   height: auto;
   text-align: left;
   justify-content: center;
 }
-
+.Hero-Section-Column-One-Box-Container {
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: red; */
+}
 .Hero-Section-Text {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 4rem;
-  line-height: 6rem;
+  font-size: 3.3rem;
+  line-height: 5rem;
   color: #0b1b35;
   text-align: left;
 }
@@ -31,7 +35,7 @@
 .Hero-Section-GetStarted-Button {
   border-radius: 10px;
   align-items: left;
-  width: 10vw;
+  width: 37%;
   height: 5vh;
   background-color: #ff6600;
   color: #ffffff;
@@ -39,10 +43,39 @@
 .Hero-Section-Column-One-Box-Item {
   text-align: left;
   box-shadow: none;
+  height: 80vh;
+  background: none;
 }
 
 @media only screen and (max-width: 600px) {
   .Hero-Section-Column-One-Box {
     font-size: 20%;
+  }
+  .Hero-Section-Column-One-Box-Container {
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1360px) {
+  .Hero-Section-Text {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.8rem;
+    line-height: 5rem;
+    color: #0b1b35;
+    text-align: left;
+  }
+  .Hero-Section-Column-One-Box-Container {
+    width: 90vw;
+  }
+  .Hero-Section-Column-One-Box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+    text-align: left;
+    justify-content: center;
   }
 }
