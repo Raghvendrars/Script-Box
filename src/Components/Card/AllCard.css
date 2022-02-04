@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400&family=Inter&family=Poppins:wght@400;600&family=Raleway&family=Red+Hat+Display:wght@400;500&family=Ubuntu&family=Work+Sans&display=swap");
+.All-Card-Common-Class {
+  width: 100%;
+  max-width: 100%;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.All-Card-Content-Common-Class {
+  padding: 0%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.All-Card-Content-Common-Class > h4 {
+  margin: 0%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.All-Card-Content-Footer{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.All-Card-Content-Footer > h6 {
+    margin: 0%;
+    font-weight:600;
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+  }
+  

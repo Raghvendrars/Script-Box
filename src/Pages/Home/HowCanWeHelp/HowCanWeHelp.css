@@ -1,9 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400&family=Inter&family=Poppins:wght@400;600&family=Raleway&family=Red+Hat+Display:wght@400;500&family=Ubuntu&family=Work+Sans&display=swap");
+
 .HowCanWeHelp-Bg-Wrap-Div {
-  width: 70vw;
-  height: 60vh;
-  z-index: -1;
+  background-image: url("./Bgimage.png");
+  background-repeat: no-repeat;
+  background-size: 77% 70%;
+  background-position: right;
+}
+.How-Can-We-Help-Text-Wrap {
+  width: 80%;
   float: right;
-  margin-right: 0px;
-  background: #f4f9ff;
-  border-radius: 0px;
+  margin-top: 50%;
+  margin-bottom: 0px;
+}
+.How-Can-We-Help-Text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 60px;
+  color: #000000;
+  text-align: left;
+}
+
+.How-Can-We-Help-Text-Wrap > h6 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: left;
+
+  color: #565656;
+}
+
+.HowWeCanHelp-Grid-Two {
+  width: 55%;
+  float: right;
+  margin-right: 8%;
 }

@@ -8,21 +8,22 @@ import {
   Button,
 } from "@mui/material";
 import MarketIcon from "./MarketIcon.png";
+import "./AllCard.css";
 
 const MarketCard = () => {
   return (
     <div>
-       <Card sx={{ maxWidth: 280,paddingTop:"4%",paddingBottom:"4%",borderRadius:"20px",boxShadow:"rgba(0, 0, 0, 0.15) 0px 5px 15px 0px" }}>
+       <Card className="All-Card-Common-Class">
         <CardContent>
             <img src={MarketIcon} width={"50%"} />
         </CardContent>
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Market Analysis Project
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-          Protocols apart from aengage models, pricing billing
-          </Typography>
+        <CardContent className="All-Card-Content-Common-Class">
+          <h4>Business Idea Planning</h4>
+          <div className="All-Card-Content-Footer">
+            <h6 color="text.secondary">
+              Protocols apart from aengage models, pricing billing
+            </h6>
+          </div>
         </CardContent>
       </Card>
     </div>
