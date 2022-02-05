@@ -63,7 +63,7 @@ const Components = () => {
     <div className="Component-Wrap-Parent">
       <div className="Component-Wrap">
         <Grid container>
-          <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
+          <Grid item xl={12} lg={12} md={12} sm={12} xs={12} paddingTop={2}>
             <h1 className="Component-Title-Text">Components</h1>
           </Grid>
           <Grid container gap={0} padding={3} margin={0}>
