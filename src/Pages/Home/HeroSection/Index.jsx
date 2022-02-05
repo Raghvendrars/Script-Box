@@ -44,7 +44,7 @@ const Home = () => {
               // direction="column"
               alignItems="center"
               justifyContent="center"
-              style={{ minHeight: "100vh",width:"80%" }}
+              style={{ minHeight: "90vh",width:"80%" }}
               className="Hero-Section-Column-One-Box-Container"
             >
               <List sx={style} >
@@ -78,7 +78,7 @@ const Home = () => {
             direction="column"
             alignItems="center"
             justifyContent="center"
-            style={{ minHeight: "100vh" }}
+            style={{ minHeight: "90vh" }}
             sx={{ boxShadow: "none" }}
           >
             <Card sx={{ maxWidth: "100%", boxShadow: "none" }}>

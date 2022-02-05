@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400&family=Inter&family=Poppins:wght@400;600&family=Raleway&family=Red+Hat+Display:wght@400;500&family=Ubuntu&family=Work+Sans&display=swap");
+
+.OurTeam-Wrap {
+  width: 85%;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .OurTeam-Card-Button:hover {
+  border: none;
+  background-color: red;
+} */
+.MeetTheTeam-Text-Small {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 204% */
+
+  text-align: center;
+  letter-spacing: 0.45em;
+
+  color: #8a898e;
+}
+.MeetTheTeam-Text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}

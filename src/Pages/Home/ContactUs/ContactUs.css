@@ -1,0 +1,12 @@
+.ContactUs-Wrap{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ContactUs-Form-Wrap{
+    background-color: #F4F6FC;
+    border-radius: 20px;
+    padding: 5%;
+    text-align: left;
+}

@@ -9,12 +9,9 @@ import MarketCard from "../../../Components/Card/MarketCard";
 const Index = () => {
   return (
     <div className="HowCanWeHelp-Bg-Wrap-Div">
-      <Grid container sx={{ height: "100vh" }}>
-        <Grid item xl={4} lg={4} sx={{ minHeight: "100vh" }}>
-          <Box
-            className="How-Can-We-Help-Text-Wrap"
-            style={{ minHeight: "40vh" }}
-          >
+      <Grid container>
+        <Grid item xl={4} lg={4}>
+          <Box className="How-Can-We-Help-Text-Wrap">
             <h1 className="How-Can-We-Help-Text">How can we help you ?</h1>
             <h6>
               We build readymade websites, mobile applications, and elaborate
@@ -25,8 +22,8 @@ const Index = () => {
         <Grid item xl={4} lg={4} sx={{ marginTop: "5%" }}>
           <Grid
             container
-            className="HowWeCanHelp-Grid-Two"
-            sx={{ width: "55%", marginLeft: "auto", marginRight: "auto" }}
+            // className="HowWeCanHelp-Grid-Two"
+            sx={{ width: "55%", float:"right",marginRight:"7%" }}
           >
             <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
               <BusinessCard />
@@ -64,10 +61,6 @@ const Index = () => {
             </Grid>
           </Grid>
         </Grid>
-        {/* <Grid item xl={4}>
-        <PlanningCard />
-        <MarketCard />
-      </Grid> */}
       </Grid>
     </div>
   );

@@ -13,16 +13,16 @@ import "./AllCard.css";
 const MarketCard = () => {
   return (
     <div>
-       <Card className="All-Card-Common-Class">
+       <Card className="All-Card-Common-Class" sx={{ borderRadius: 7 }}>
         <CardContent>
-            <img src={MarketIcon} width={"50%"} />
+            <img src={MarketIcon} width={"45%"} />
         </CardContent>
         <CardContent className="All-Card-Content-Common-Class">
-          <h4>Business Idea Planning</h4>
+        <Typography variant="h5">Market Card Planning</Typography>
           <div className="All-Card-Content-Footer">
-            <h6 color="text.secondary">
+            <Typography variant="body2" color="text.secondary">
               Protocols apart from aengage models, pricing billing
-            </h6>
+            </Typography>
           </div>
         </CardContent>
       </Card>
