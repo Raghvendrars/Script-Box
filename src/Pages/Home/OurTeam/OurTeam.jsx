@@ -31,7 +31,7 @@ const OurTeam = () => {
             <Typography variant="h3" className="MeetTheTeam-Text" marginTop={1}>Meet The Team</Typography>
           </Paper>
         </Grid>
-        <Grid item xl={12} lg={12} md={12} sm={12} xs={12} marginTop={7}>
+        <Grid item xl={12} lg={12} md={12} sm={12} xs={12} marginTop={12}>
           <Grid container>
             <Grid item xl={4} lg={4} md={4} sm={12} xs={12}>
               <Card

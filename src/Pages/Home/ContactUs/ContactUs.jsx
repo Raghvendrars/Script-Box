@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Paper, TextField } from "@mui/material";
+import { Grid, Typography, Paper, TextField,Button } from "@mui/material";
 import "./ContactUs.css";
 
 const ContactUs = () => {
@@ -14,8 +14,9 @@ const ContactUs = () => {
           sm={12}
           sx={{ marginLeft: "auto", marginRight: "auto" }}
         >
-          <Paper>
-            <Typography variant="h4">Contact US</Typography>
+          <Paper sx={{boxShadow:"none",marginBottom:"7%"}}>
+            <Typography variant="h4" p={0}>Contact US</Typography>
+            <h5>Lorem ipsum dolor sit amet incididunt ut labore.</h5>
           </Paper>
         </Grid>
         <Grid container className="ContactUs-Form-Wrap">
@@ -55,6 +56,9 @@ const ContactUs = () => {
               variant="outlined"
               fullWidth
             />
+          </Grid>
+          <Grid xl={12} lg={12} md={12} sm={12} xs={12} paddingLeft={4} paddingRight={4} marginTop={4}>
+            <Button sx={{width:"20%",bgcolor:"#282938",color:"#fff",borderRadius:"10px"}}>Send Message</Button>
           </Grid>
         </Grid>
       </Grid>
