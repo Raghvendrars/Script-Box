@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
+.Footer-Wrap-Parent {
+  color: #ffffff;
+  background-color: #1c1353;
+}
+.Footer-Wrap-Container {
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Footer-Wrap-Container-Two {
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.Footer-Wrap-Container-Child {
+  width: 75%;
+  float: left;
+}
+
+.Footer-Wrap-Container-Child-Two {
+  width: 90%;
+  float: left;
+}
+.LetsTalk-Text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 0rem;
+  color: #ffffff;
+}
+
+.LetsTalk-Text-Small {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #f4f6fc;
+  opacity: 0.8;
+}
+.Footer-Contact-Section {
+  margin-top: 10%;
+  background-color: #fcd980;
+}
+.Footer-Contact-Section-Title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #282938;
+}
+.Footer-Contact-Section-Title-Text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.8;
+}
+.Footer-Social-Icons-Wrap {
+  width: 30%;
+  margin-top: 5%;
+  float: left;
+}
+
+.Footer-Copyright-Text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+}
+
+.Footer-Wrap-Container-Two-Wrap{
+    padding: 1.2rem;
+    text-align: left;
+}

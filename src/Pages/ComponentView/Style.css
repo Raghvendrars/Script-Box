@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
+.Comp-Title-Text-Small {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.45em;
+  color: #8a898e;
+}
+
+.Comp-Title-Text-Large {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 10px;
+  text-align: center;
+  color: #0b1b35;
+}
+
+.All-Comp-Wrap-Parent{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}

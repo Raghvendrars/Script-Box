@@ -5,6 +5,7 @@ import {
   CardMedia,
   CardContent,
   Typography,
+  Link,
 } from "@mui/material";
 import React from "react";
 import "./Component.css";
@@ -69,17 +70,19 @@ const Components = () => {
           <Grid container gap={0} padding={3} margin={0}>
             <Grid item xl={3} lg={3} padding={4}>
               <Card>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="100%"
-                    image={HeaderImg}
-                    alt="green iguana"
-                  />
-                  <Grid item>
-                    <h3 className="Components-Name-Text">Headers</h3>
-                  </Grid>
-                </CardActionArea>
+                <a href="/headers">
+                  <CardActionArea>
+                    <CardMedia
+                      component="img"
+                      height="100%"
+                      image={HeaderImg}
+                      alt="green iguana"
+                    />
+                    <Grid item>
+                      <h3 className="Components-Name-Text">Headers</h3>
+                    </Grid>
+                  </CardActionArea>
+                </a>
               </Card>
             </Grid>
             <Grid item xl={3} lg={3} padding={4}>
