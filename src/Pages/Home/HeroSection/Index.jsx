@@ -41,10 +41,9 @@ const Home = () => {
             <Grid
               container
               spacing={0}
-              // direction="column"
               alignItems="center"
               justifyContent="center"
-              style={{ minHeight: "90vh",width:"80%" }}
+              style={{ minHeight: "90vh",width:"85%" }}
               className="Hero-Section-Column-One-Box-Container"
             >
               <List sx={style} >

@@ -1,29 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
 .navbar {
-  background: #ffffff;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  position: relative;
-  top: 0;
-  z-index: 999;
+  background: #1c1e53;
 }
-
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
-}
-
 .container {
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 100vw;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
 }
 
 .navbar-logo {
@@ -42,8 +27,8 @@
 
 .nav-menu {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   list-style: none;
   text-align: center;
   justify-content: end;
@@ -51,6 +36,7 @@
 
 .nav-item {
   height: 80px;
+  color: #fff;
   border-bottom: 2px solid transparent;
 }
 
@@ -59,7 +45,7 @@
 }
 
 .nav-links {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -70,9 +56,36 @@
 .fa-bars {
   color: #fff;
 }
+.Nav-Page-Text-Link {
+  text-decoration: none;
+}
 
 .menu-icon {
   display: none;
+}
+
+.Header-Contact-Button {
+  width: 60%;
+  height: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-size: 1rem;
+  line-height: 0px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.Nav-Page-Text {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 @media screen and (max-width: 960px) {

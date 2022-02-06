@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Link, BrowserRouter as Router, Routes } from "react-router-dom";
 import { MdFingerprint } from "react-icons/md";
 import { FaBars, FaTimes } from "react-icons/fa";
-// import { Button } from "./Button";
+
+import { Button, Grid, Typography } from "@mui/material";
 import "./Navbar.css";
-import { IconContext } from "react-icons/lib";
+
 import NavLogo from "./NavLogo.png";
 
 function Navbar() {
@@ -30,65 +31,54 @@ function Navbar() {
 
   return (
     <>
-      <div className="navbar">
-        <div className="navbar-container container">
-          <a href="/" className="navbar-logo" onClick={closeMobileMenu}>
-           <img src={NavLogo} alt="navlogo" width={200} />
-          </a>
-          <div className="menu-icon" onClick={handleClick}>
-            {click ? <FaTimes /> : <FaBars />}
-          </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <a href="/" className="nav-links" onClick={closeMobileMenu}>
-                HOME
-              </a>
-            </li>
-            {/* <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  ABOUT
-                </Link>
-              </li> */}
-            <li className="nav-item">
-              <a
-                href="/product"
-                className="nav-links"
-                onClick={closeMobileMenu}
+      <div className="navbar" style={{ paddingLeft: "3%", paddingRight: "5%" }}>
+        <Grid container className="navbar-container container" padding={2}>
+          <Grid item xl={4} lg={4} md={3} sm={12} xs={12} textAlign={"left"}>
+            <a href="/" onClick={closeMobileMenu}>
+              <img src={NavLogo} alt="navlogo" width={200} />
+            </a>
+            <div className="menu-icon" onClick={handleClick}>
+              {click ? <FaTimes /> : <FaBars />}
+            </div>
+          </Grid>
+          <Grid item xl={8} lg={8} md={9} sm={12} xs={12}>
+            <Grid container className={click ? "nav-menu active" : "nav-menu"}>
+              <Grid item xl={2} lg={2} md={2} sm={12} xs={12}>
+                <a href="/" className="Nav-Page-Text-Link" onClick={closeMobileMenu}>
+                  <h3 className="Nav-Page-Text">Home</h3>
+                </a>
+              </Grid>
+              <Grid item xl={2} lg={2} md={2} sm={12} xs={12}>
+                <a href="/product" className="Nav-Page-Text-Link" onClick={closeMobileMenu}>
+                <h3 className="Nav-Page-Text">Features</h3>
+                </a>
+              </Grid>
+              <Grid item xl={2} lg={2} md={2} sm={12} xs={12}>
+                <a href="/product" className="Nav-Page-Text-Link" onClick={closeMobileMenu}>
+                <h3 className="Nav-Page-Text">About us</h3>
+                </a>
+              </Grid>
+              <Grid item xl={2} lg={2} md={2} sm={12} xs={12}>
+                <a href="/product" className="Nav-Page-Text-Link" onClick={closeMobileMenu}>
+                <h3 className="Nav-Page-Text">Blog</h3>
+                </a>
+              </Grid>
+              <Grid
+                item
+                xl={4}
+                lg={4}
+                md={2}
+                sm={12}
+                xs={12}
+                sx={{ textAlign: "center" }}
               >
-                PRODUCT
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="/services"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                SERVICES
-              </a>
-            </li>
-            {/* <li className="nav-btn">
-                  {button ? (
-                    <a href="/sign-up" className="btn-link">
-                      <button buttonStyle="btn--outline">SIGN UP</button>
-                    </a>
-                  ) : (
-                    <a
-                      href="/sign-up"
-                      className="btn-link"
-                      onClick={closeMobileMenu}
-                    >
-                      <button
-                        buttonStyle="btn--outline"
-                        buttonSize="btn--mobile"
-                      >
-                        SIGN UP
-                      </button>
-                    </a>
-                  )}
-                </li> */}
-          </ul>
-        </div>
+                <Button sx={{bgcolor:"none",borderRadius:"30px",border:"2px solid rgba(255, 255, 255, 0.2)",padding:"4% 7%",marginTop:"2%"}}>
+                  <Typography sx={{color:"#fff"}}>Contact Us</Typography>
+                </Button>
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
       </div>
     </>
   );
