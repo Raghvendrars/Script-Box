@@ -59,7 +59,7 @@ function Navbar() {
                 </a>
               </Grid>
               <Grid item xl={2} lg={2} md={2} sm={12} xs={12}>
-                <a href="/product" className="Nav-Page-Text-Link" onClick={closeMobileMenu}>
+                <a href="/blog" className="Nav-Page-Text-Link" onClick={closeMobileMenu}>
                 <h3 className="Nav-Page-Text">Blog</h3>
                 </a>
               </Grid>
