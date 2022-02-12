@@ -6,7 +6,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Button, Grid, Typography } from "@mui/material";
 import "./Navbar.css";
 
-import NavLogo from "./NavLogo.png";
+import NavLogo from "./Logo.png";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -32,10 +32,10 @@ function Navbar() {
   return (
     <>
       <div className="navbar" style={{ paddingLeft: "3%", paddingRight: "5%" }}>
-        <Grid container className="navbar-container container" padding={2}>
-          <Grid item xl={4} lg={4} md={3} sm={12} xs={12} textAlign={"left"}>
+        <Grid container className="navbar-container container" padding={1}>
+          <Grid item xl={4} lg={4} md={3} sm={12} xs={12} textAlign={"left"} pt={1}>
             <a href="/" onClick={closeMobileMenu}>
-              <img src={NavLogo} alt="navlogo" width={200} />
+              <img src={NavLogo} alt="navlogo" width={150} />
             </a>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

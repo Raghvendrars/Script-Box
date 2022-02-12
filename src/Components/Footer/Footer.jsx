@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Container, Typography, Box } from "@mui/material";
-import FooterLogo from "./NavLogo.png";
+import FooterLogo from "./Logo.png";
 import "./Footer.css";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";

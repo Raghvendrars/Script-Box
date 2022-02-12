@@ -1,7 +1,9 @@
 [
   {
     "id": 1,
-    "name": "Header One"
+    "name": "Header One",
+    "link":"https://github.com/RaghavScriptsBox/react-responsive-header/tree/master/src/Component",
+    "image":"https://dochub.com/vishenraghav/DL7JlEGV1E0kD3mVrWe0oa/react-header-png"
   },
   {
     "id": 2,
