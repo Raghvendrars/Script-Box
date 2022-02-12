@@ -51,13 +51,7 @@ const Header = () => {
                   return (
                     <Grid item xl={3} item xl={3} lg={3} padding={4}>
                       <Card>
-                        <CardActionArea>
-                          {/* <CardMedia
-                            component="img"
-                            height="100%"
-                            image={HeaderImg}
-                            alt="green iguana"
-                          /> */}
+                        <CardActionArea>            
                           <ModalImage
                             small={d.image}
                             large={d.image}
